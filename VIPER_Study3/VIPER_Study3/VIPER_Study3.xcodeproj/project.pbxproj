@@ -7,35 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4185A0F22C008C070012437E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185A0F12C008C070012437E /* AppDelegate.swift */; };
-		4185A0F42C008C070012437E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185A0F32C008C070012437E /* SceneDelegate.swift */; };
-		4185A0F62C008C070012437E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185A0F52C008C070012437E /* ViewController.swift */; };
-		4185A0F92C008C070012437E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4185A0F82C008C070012437E /* Base */; };
-		4185A0FB2C008C080012437E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4185A0FA2C008C080012437E /* Assets.xcassets */; };
-		4185A0FE2C008C080012437E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4185A0FD2C008C080012437E /* Base */; };
-		4185A1062C008D590012437E /* CandyEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185A1052C008D590012437E /* CandyEntity.swift */; };
-		4185A1082C008D900012437E /* CandyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185A1072C008D900012437E /* CandyInteractor.swift */; };
-		4185A10A2C008DC10012437E /* CandyAPIWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185A1092C008DC10012437E /* CandyAPIWorker.swift */; };
-		4185A10C2C008DE90012437E /* CandyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185A10B2C008DE90012437E /* CandyView.swift */; };
+		418263ED2C15AA7500A3C709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418263EC2C15AA7500A3C709 /* AppDelegate.swift */; };
+		418263EF2C15AA7500A3C709 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418263EE2C15AA7500A3C709 /* SceneDelegate.swift */; };
+		418263F12C15AA7500A3C709 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418263F02C15AA7500A3C709 /* ViewController.swift */; };
+		418263F62C15AA7600A3C709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418263F52C15AA7600A3C709 /* Assets.xcassets */; };
+		418263F92C15AA7600A3C709 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 418263F82C15AA7600A3C709 /* Base */; };
+		418264022C15BB4800A3C709 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418264012C15BB4800A3C709 /* Router.swift */; };
+		418264042C15BB4E00A3C709 /* PokeListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418264032C15BB4E00A3C709 /* PokeListPresenter.swift */; };
+		418264062C15BB5100A3C709 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418264052C15BB5100A3C709 /* Entity.swift */; };
+		418264082C15BB5600A3C709 /* PokeListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418264072C15BB5600A3C709 /* PokeListInteractor.swift */; };
+		4182640A2C15BB6900A3C709 /* PokeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418264092C15BB6900A3C709 /* PokeListView.swift */; };
+		4182640C2C15C21D00A3C709 /* PokeListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4182640B2C15C21D00A3C709 /* PokeListTVCell.swift */; };
+		4182640E2C15CC3500A3C709 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4182640D2C15CC3500A3C709 /* RootRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4185A0EE2C008C070012437E /* VIPER_Study2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER_Study2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4185A0F12C008C070012437E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4185A0F32C008C070012437E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4185A0F52C008C070012437E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4185A0F82C008C070012437E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4185A0FA2C008C080012437E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4185A0FD2C008C080012437E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4185A0FF2C008C080012437E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4185A1052C008D590012437E /* CandyEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyEntity.swift; sourceTree = "<group>"; };
-		4185A1072C008D900012437E /* CandyInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyInteractor.swift; sourceTree = "<group>"; };
-		4185A1092C008DC10012437E /* CandyAPIWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyAPIWorker.swift; sourceTree = "<group>"; };
-		4185A10B2C008DE90012437E /* CandyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyView.swift; sourceTree = "<group>"; };
+		418263E92C15AA7500A3C709 /* VIPER_Study3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER_Study3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		418263EC2C15AA7500A3C709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		418263EE2C15AA7500A3C709 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		418263F02C15AA7500A3C709 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		418263F52C15AA7600A3C709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		418263F82C15AA7600A3C709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		418263FA2C15AA7600A3C709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418264012C15BB4800A3C709 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		418264032C15BB4E00A3C709 /* PokeListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeListPresenter.swift; sourceTree = "<group>"; };
+		418264052C15BB5100A3C709 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		418264072C15BB5600A3C709 /* PokeListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeListInteractor.swift; sourceTree = "<group>"; };
+		418264092C15BB6900A3C709 /* PokeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeListView.swift; sourceTree = "<group>"; };
+		4182640B2C15C21D00A3C709 /* PokeListTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeListTVCell.swift; sourceTree = "<group>"; };
+		4182640D2C15CC3500A3C709 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4185A0EB2C008C070012437E /* Frameworks */ = {
+		418263E62C15AA7500A3C709 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,76 +49,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4185A0E52C008C070012437E = {
+		418263E02C15AA7500A3C709 = {
 			isa = PBXGroup;
 			children = (
-				4185A0F02C008C070012437E /* VIPER_Study2 */,
-				4185A0EF2C008C070012437E /* Products */,
+				418263EB2C15AA7500A3C709 /* VIPER_Study3 */,
+				418263EA2C15AA7500A3C709 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4185A0EF2C008C070012437E /* Products */ = {
+		418263EA2C15AA7500A3C709 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4185A0EE2C008C070012437E /* VIPER_Study2.app */,
+				418263E92C15AA7500A3C709 /* VIPER_Study3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4185A0F02C008C070012437E /* VIPER_Study2 */ = {
+		418263EB2C15AA7500A3C709 /* VIPER_Study3 */ = {
 			isa = PBXGroup;
 			children = (
-				4185A0F12C008C070012437E /* AppDelegate.swift */,
-				4185A0F32C008C070012437E /* SceneDelegate.swift */,
-				4185A0F52C008C070012437E /* ViewController.swift */,
-				4185A0F72C008C070012437E /* Main.storyboard */,
-				4185A0FA2C008C080012437E /* Assets.xcassets */,
-				4185A0FC2C008C080012437E /* LaunchScreen.storyboard */,
-				4185A0FF2C008C080012437E /* Info.plist */,
-				4185A1052C008D590012437E /* CandyEntity.swift */,
-				4185A1072C008D900012437E /* CandyInteractor.swift */,
-				4185A1092C008DC10012437E /* CandyAPIWorker.swift */,
-				4185A10B2C008DE90012437E /* CandyView.swift */,
+				418264002C15BB3E00A3C709 /* VIPER */,
+				418263EC2C15AA7500A3C709 /* AppDelegate.swift */,
+				418263EE2C15AA7500A3C709 /* SceneDelegate.swift */,
+				418263F02C15AA7500A3C709 /* ViewController.swift */,
+				418263F52C15AA7600A3C709 /* Assets.xcassets */,
+				418263F72C15AA7600A3C709 /* LaunchScreen.storyboard */,
+				418263FA2C15AA7600A3C709 /* Info.plist */,
+				4182640D2C15CC3500A3C709 /* RootRouter.swift */,
 			);
-			path = VIPER_Study2;
+			path = VIPER_Study3;
+			sourceTree = "<group>";
+		};
+		418264002C15BB3E00A3C709 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				418264012C15BB4800A3C709 /* Router.swift */,
+				418264052C15BB5100A3C709 /* Entity.swift */,
+				418264032C15BB4E00A3C709 /* PokeListPresenter.swift */,
+				418264072C15BB5600A3C709 /* PokeListInteractor.swift */,
+				418264092C15BB6900A3C709 /* PokeListView.swift */,
+				4182640B2C15C21D00A3C709 /* PokeListTVCell.swift */,
+			);
+			path = VIPER;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4185A0ED2C008C070012437E /* VIPER_Study2 */ = {
+		418263E82C15AA7500A3C709 /* VIPER_Study3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4185A1022C008C080012437E /* Build configuration list for PBXNativeTarget "VIPER_Study2" */;
+			buildConfigurationList = 418263FD2C15AA7600A3C709 /* Build configuration list for PBXNativeTarget "VIPER_Study3" */;
 			buildPhases = (
-				4185A0EA2C008C070012437E /* Sources */,
-				4185A0EB2C008C070012437E /* Frameworks */,
-				4185A0EC2C008C070012437E /* Resources */,
+				418263E52C15AA7500A3C709 /* Sources */,
+				418263E62C15AA7500A3C709 /* Frameworks */,
+				418263E72C15AA7500A3C709 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = VIPER_Study2;
-			productName = VIPER_Study2;
-			productReference = 4185A0EE2C008C070012437E /* VIPER_Study2.app */;
+			name = VIPER_Study3;
+			productName = VIPER_Study3;
+			productReference = 418263E92C15AA7500A3C709 /* VIPER_Study3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4185A0E62C008C070012437E /* Project object */ = {
+		418263E12C15AA7500A3C709 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					4185A0ED2C008C070012437E = {
+					418263E82C15AA7500A3C709 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 4185A0E92C008C070012437E /* Build configuration list for PBXProject "VIPER_Study2" */;
+			buildConfigurationList = 418263E42C15AA7500A3C709 /* Build configuration list for PBXProject "VIPER_Study3" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,59 +136,53 @@
 				en,
 				Base,
 			);
-			mainGroup = 4185A0E52C008C070012437E;
-			productRefGroup = 4185A0EF2C008C070012437E /* Products */;
+			mainGroup = 418263E02C15AA7500A3C709;
+			productRefGroup = 418263EA2C15AA7500A3C709 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4185A0ED2C008C070012437E /* VIPER_Study2 */,
+				418263E82C15AA7500A3C709 /* VIPER_Study3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4185A0EC2C008C070012437E /* Resources */ = {
+		418263E72C15AA7500A3C709 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4185A0FB2C008C080012437E /* Assets.xcassets in Resources */,
-				4185A0FE2C008C080012437E /* Base in Resources */,
-				4185A0F92C008C070012437E /* Base in Resources */,
+				418263F62C15AA7600A3C709 /* Assets.xcassets in Resources */,
+				418263F92C15AA7600A3C709 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4185A0EA2C008C070012437E /* Sources */ = {
+		418263E52C15AA7500A3C709 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4185A10C2C008DE90012437E /* CandyView.swift in Sources */,
-				4185A1062C008D590012437E /* CandyEntity.swift in Sources */,
-				4185A0F62C008C070012437E /* ViewController.swift in Sources */,
-				4185A1082C008D900012437E /* CandyInteractor.swift in Sources */,
-				4185A0F22C008C070012437E /* AppDelegate.swift in Sources */,
-				4185A10A2C008DC10012437E /* CandyAPIWorker.swift in Sources */,
-				4185A0F42C008C070012437E /* SceneDelegate.swift in Sources */,
+				418264022C15BB4800A3C709 /* Router.swift in Sources */,
+				418263F12C15AA7500A3C709 /* ViewController.swift in Sources */,
+				418264062C15BB5100A3C709 /* Entity.swift in Sources */,
+				4182640C2C15C21D00A3C709 /* PokeListTVCell.swift in Sources */,
+				418263ED2C15AA7500A3C709 /* AppDelegate.swift in Sources */,
+				418263EF2C15AA7500A3C709 /* SceneDelegate.swift in Sources */,
+				4182640E2C15CC3500A3C709 /* RootRouter.swift in Sources */,
+				418264082C15BB5600A3C709 /* PokeListInteractor.swift in Sources */,
+				418264042C15BB4E00A3C709 /* PokeListPresenter.swift in Sources */,
+				4182640A2C15BB6900A3C709 /* PokeListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4185A0F72C008C070012437E /* Main.storyboard */ = {
+		418263F72C15AA7600A3C709 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4185A0F82C008C070012437E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4185A0FC2C008C080012437E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4185A0FD2C008C080012437E /* Base */,
+				418263F82C15AA7600A3C709 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +190,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4185A1002C008C080012437E /* Debug */ = {
+		418263FB2C15AA7600A3C709 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,7 +253,7 @@
 			};
 			name = Debug;
 		};
-		4185A1012C008C080012437E /* Release */ = {
+		418263FC2C15AA7600A3C709 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,7 +309,7 @@
 			};
 			name = Release;
 		};
-		4185A1032C008C080012437E /* Debug */ = {
+		418263FE2C15AA7600A3C709 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -310,10 +318,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9UU59NTC96;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VIPER_Study2/Info.plist;
+				INFOPLIST_FILE = VIPER_Study3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Ruel.VIPER-Study2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOSDevRuel.VIPER-Study3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -329,7 +336,7 @@
 			};
 			name = Debug;
 		};
-		4185A1042C008C080012437E /* Release */ = {
+		418263FF2C15AA7600A3C709 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -338,10 +345,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9UU59NTC96;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VIPER_Study2/Info.plist;
+				INFOPLIST_FILE = VIPER_Study3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -349,7 +355,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Ruel.VIPER-Study2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOSDevRuel.VIPER-Study3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -360,25 +366,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4185A0E92C008C070012437E /* Build configuration list for PBXProject "VIPER_Study2" */ = {
+		418263E42C15AA7500A3C709 /* Build configuration list for PBXProject "VIPER_Study3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4185A1002C008C080012437E /* Debug */,
-				4185A1012C008C080012437E /* Release */,
+				418263FB2C15AA7600A3C709 /* Debug */,
+				418263FC2C15AA7600A3C709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4185A1022C008C080012437E /* Build configuration list for PBXNativeTarget "VIPER_Study2" */ = {
+		418263FD2C15AA7600A3C709 /* Build configuration list for PBXNativeTarget "VIPER_Study3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4185A1032C008C080012437E /* Debug */,
-				4185A1042C008C080012437E /* Release */,
+				418263FE2C15AA7600A3C709 /* Debug */,
+				418263FF2C15AA7600A3C709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4185A0E62C008C070012437E /* Project object */;
+	rootObject = 418263E12C15AA7500A3C709 /* Project object */;
 }
